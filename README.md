@@ -4,8 +4,6 @@ Los números complejos son un conjunto matemático que extiende los números rea
 Cada una de las funciones del programa recibira un par de tuplas y realizara la operación correspondiente:
 * c1,c2: representan las tuplas de la forma (real,imaginario)
 
-  Ejemplo: c1=(3,2), c2=(-5,5.2)
-
 1.  Suma: retorna la suma entre un par de numeros complejos (c1,c2).
 2.  Producto: retorna el producto entre un par de números complejos (c1,c2).
 3.  Resta: retorna la resta entre un par de numeros complejos (c1,c2).
@@ -13,7 +11,7 @@ Cada una de las funciones del programa recibira un par de tuplas y realizara la 
 5.  Módulo: retorna el modulo de un número complejo (c1).
 6.  Conjugado: retorna el conjugado de un numero complejo (c1).
 7.  Conversión entre representaciones polar y cartesiano: retorna la representacion de un par de números complejos (c1).
-8.  Retornar la fase de un complejo: 
+8.  Retornar la fase de un complejo: Retorna la fase de un numero complejo dado 
 
 
 
@@ -23,10 +21,8 @@ Cada una de las funciones del programa recibira un par de tuplas y realizara la 
   
 
 # Archivos
-
 Se encontraran dos archivos los cuales son:
-* operaciones_complejos.py
-  * En este archivo se encuentra el codigo de las operaciones solicitadas cada una con dos ejemplos.
-
+* libreria_complejos.py
+  * Donde encontrara el codigo de las operaciones solicitadas.
 * pruebas.py
   * En este archivo se encuentran las pruebas que se solicitaron en unittest.
